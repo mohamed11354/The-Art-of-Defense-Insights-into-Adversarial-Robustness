@@ -1,4 +1,4 @@
-# New-Generation-for-Adversarial-Training
+# The-Art-of-Defense-Insights-into-Adversarial-Robustness
 This repo contains the codes and supplements used in the paper. 
 
 Our paper investigates the robustness of deep learning models against adversarial attacks. We conducted large-scale adversarial training on several Convolutional Neural Networks (CNNs) and Vision Transformers (ViTs) to evaluate their resilience to MIG and PGD attacks. Our experiments reveal that model architecture, rather than size, is the key determinant of robustness, and that adversarial-trained models exhibit greater resistance to attacks. However, this leads to more transferable and powerful adversarial gradients. Additionally, we explored how model robustness varies with different budget epsilon values, demonstrating that adversarial training provides better resilience at higher perturbation levels, though all models eventually fail against stronger attacks. Lastly, we introduced MIG as a substitute for PGD in adversarial training. It improves defense against MIG attacks and enhances accuracy on clean images but at a higher computational cost.
